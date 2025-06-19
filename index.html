@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nora Bruzuka - my portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="title">Nora Bruzuka</div>
+  <div class="logo"></div>
+    <img src="logo.png" alt="Nora Bruzuka Logo" style="height:150px;">
+  </div>
+    <div class="h1">MY PORTFOLIO</div>
+  
+<nav>
+      <ul class="nav-links">
+        <li><button onclick="scrollToSection('about')">About Me</button></li>
+        <li><button onclick="scrollToSection('projects')">My Projects</button></li>
+        <li><button onclick="scrollToSection('contact')">Contacts</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="content">
+    <h2>About Me</h2>
+    <p>I started learning web development with curiosity and passion. From HTML basics to responsive layouts and JavaScript interactivity, my journey has been filled with creativity and continuous growth.
+      This is my starting point of changing my career path
+    </p>
+    <div class="h3">My Skills</div>
+<ul>
+  <li>Basic knowledge of HTML, CSS, JavaScript</li>
+  <li>Team Collaboration</li>
+  <li>Project Management</li>
+  <li>Adaptability & Quick Learning</li>
+</ul>
+    <div class="video-box" style="margin-top: 1em; text-align: center;">
+       <iframe 
+      src="https://www.youtube.com/embed/Okb1TjsZlm0?autoplay=1&mute=1"
+      frameborder="0"
+      allow="autoplay; encrypted-media; fullscreen"
+      allowfullscreen
+    ></iframe>
+    </div>
+  </section>
+
+  <section id="projects" class="content">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="1.png" alt="Project 1">
+        <h3>Project One</h3>
+        <p>Async JavaScript Lab training results</p>
+      </div>
+      <div class="project">
+        <img src="2.png" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>Quote of the day Lab training results.</p>
+      </div>
+      <div class="project">
+        <img src="3.png" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>Basic HTML Lab training results</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="content">
+    <h2>Contact Me</h2>
+    <form action="mailto:norabruzuka@gmail.com" method="POST" enctype="text/plain">
+      <label>Name:<input type="text" name="name" required></label>
+      <label>Email:<input type="email" name="email" required></label>
+      <label>Phone:<input type="tel" name="phone"></label>
+      <label>Message:<textarea name="message" required></textarea></label>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nora Bruzuka</p>
+  </footer>
+
+</body>
+</html>
